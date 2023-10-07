@@ -64,7 +64,7 @@ const Home = () => {
             heading={
               <div className='text-4xl font-semibold'>
                 Unlock your 
-                <HighlightText text={"Coding potential"}/>
+                <HighlightText text={"Coding potential "}/>
                 with our online courses
               </div>
             }
@@ -147,7 +147,7 @@ const Home = () => {
                         </CTAButton>
                         <CTAButton active={false} linkto={"/about"}>
                             <div>
-                                Learn more
+                                About Us
                             </div>
                         </CTAButton>
                     </div>
@@ -169,9 +169,9 @@ const Home = () => {
     <div className='text-[16px]'>
     The modern StudyNotion is the dictates its own terms. Today, to be a competitive specialist requires more than professional skills.
     </div>
-    <CTAButton active={true} linkto={"/about"}>
+    <CTAButton active={true} linkto={"/contact"}>
         <div>
-            Learn more
+            Contact Us
         </div>
     </CTAButton>
     </div>
