@@ -154,7 +154,9 @@ const Navbar = () => {
             
         </div>
         <button className="mr-4 md:hidden">
+            <Link to="/">
           <AiOutlineMenu fontSize={24} fill="#AFB2BF" />
+            </Link>
         </button>
 
       </div>
