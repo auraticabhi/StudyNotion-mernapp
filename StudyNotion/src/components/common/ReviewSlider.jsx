@@ -67,7 +67,7 @@ const ReviewSlider = () => {
                             {
                             review.course!==null&&review.user!==null&&(
                             <SwiperSlide>
-                            <div className="flex flex-col gap-3 bg-richblack-800 p-3 text-[14px] text-richblack-25">
+                            <div className="flex flex-col gap-3 bg-richblack-800 p-3 text-[14px] text-richblack-25 min-w-max">
                             <div className="flex items-center gap-4">
                             <img
                             src={review.user.image
