@@ -126,7 +126,7 @@ exports.updateDisplayPicture = async(req, res) => {
             1000
         )
         console.log(image);
-        const updatedProfile = await User.findByIdAndUpdate({ _id: userId }, { image: image.secure_url }, { new: true })
+        const updatedProfile = await User.findByIdAndUpdate({ _id: userId }, { image: image.secure_url }, { new: true }).populate("additionalDetails").exec();
         res.send({
             sucess: true,
             message: `Image Updated Sucessfully`,
